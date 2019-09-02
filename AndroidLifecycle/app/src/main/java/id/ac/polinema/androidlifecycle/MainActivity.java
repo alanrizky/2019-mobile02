@@ -1,8 +1,10 @@
 package id.ac.polinema.androidlifecycle;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
 		super.onDestroy();
 		Toast.makeText(this, "App on Destroy",Toast.LENGTH_SHORT).show();
 	}
+
+
+
+    public void handleSubmit(View view) {
+    }
 }
