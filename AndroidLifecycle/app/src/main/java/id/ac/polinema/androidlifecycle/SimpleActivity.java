@@ -16,8 +16,8 @@ public class SimpleActivity extends AppCompatActivity {
         outputText.setText("Hello " + name);
     }
     @Override
-    protected void onPostCreate(@Nullable Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simple);
         nameInput = findViewById(R.id.input_name);
         outputText = findViewById(R.id.text_output);

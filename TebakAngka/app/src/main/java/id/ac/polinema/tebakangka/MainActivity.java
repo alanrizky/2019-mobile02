@@ -12,7 +12,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-	//  TODO: deklarasikan variabel di sini
+		//  TODO: deklarasikan variabel di sini
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
