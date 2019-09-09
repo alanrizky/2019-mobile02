@@ -45,5 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
 	public void handleReset(View view) {
 		setContentView(R.layout.activity_main);
+		initRandomNumber();
 	}
 }
